@@ -8,6 +8,10 @@ import Digitalclock from './Digitalclock'
 import Headere from './components/Headere'
 import Hook from './components/Hook'
 import Login from "./components/Login"
+import Classs from "./components/Classs"
+import Array from "./components/Array"
+import Spread from "./components/Spread"
+
 
 
 
@@ -18,12 +22,17 @@ export default function App() {
         <Headere name="shiva" age={22} city="Vijayawada"/>
       <Calculator/>
        <Digitalclock/>
+       
      ---------------------------------------------------------------------
       
      <UserProvider>
        <Hook />
        <Login />
      </UserProvider>
+     <Classs/>
+     <Array/>
+     <Spread/>
+   
     
    
     </div>
