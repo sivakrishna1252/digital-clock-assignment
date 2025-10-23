@@ -9,6 +9,8 @@ export default function UserProvider({ children }) {
   const login = (name) => setUser(name);
   const logout = () => setUser(null);
 
+
+  
   return (
     <UserContext.Provider value={{ user, login, logout }}>
       {children}

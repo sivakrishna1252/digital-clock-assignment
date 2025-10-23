@@ -10,23 +10,26 @@ import Hook from './components/Hook'
 import Login from "./components/Login"
 
 
+
 export default function App() {
   return (
       <div className='app'>
-     <h1>React Basic Concepts</h1>
-      <Headere name="shiva" age={22} city="Vijayawada"/>
+       <h1>React Basic Concepts</h1>
+        <Headere name="shiva" age={22} city="Vijayawada"/>
       <Calculator/>
-      <Digitalclock/>
-    ---------------------------------------------------------------------
+       <Digitalclock/>
+     ---------------------------------------------------------------------
       
-    <UserProvider>
-      <Hook />
-      <Login />
-    </UserProvider>
+     <UserProvider>
+       <Hook />
+       <Login />
+     </UserProvider>
+    
    
     </div>
   )
 }
+
 
 
 
